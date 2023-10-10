@@ -1,0 +1,6 @@
+.apipara{
+    width: 110ch;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
