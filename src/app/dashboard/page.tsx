@@ -2,7 +2,7 @@
 import type { NextPage } from "next";
 import { usePathname } from 'next/navigation';
 
-const DashboardPage: NextPage = () =>{
+const Dashboard: NextPage = () =>{
     const pathname = usePathname()
     return(
         <div>
@@ -12,4 +12,4 @@ const DashboardPage: NextPage = () =>{
     )
 }
 
-export default DashboardPage;
+export default Dashboard;

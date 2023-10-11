@@ -1,3 +1,4 @@
+'use client'
 import React from "react";
 import Link from "next/link";
 import "./style.css";
@@ -19,12 +20,13 @@ const DashboardLayout: React.FC<DashboardLayoutProps> = (props)=>{
                 </ul>
             </nav>
             <div className="flex">
-                <div className="h-screen bg-black">
+                <div className="bg-black">
                     <ul className="flex flex-col gap-4 px-5 py-5 text-white w-[15vw]">
                         <li><Link href="/dashboard">Dashboard</Link></li>
                         <li><Link href="/dashboard/apps">Apps</Link></li>
                         <li><Link href="/dashboard/profile">Profile</Link></li>
                         <li><Link href="/dashboard/api">Api</Link></li>
+
                     </ul>
                 </div>
                 <div className="p-5">{props.children}</div>
