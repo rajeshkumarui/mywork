@@ -21,7 +21,7 @@ const DashboardLayout: React.FC<DashboardLayoutProps> = (props)=>{
             </nav>
             <div className="flex">
                 <div className="bg-black">
-                    <ul className="flex flex-col gap-4 px-5 py-5 text-white w-[15vw]">
+                    <ul className="flex flex-col gap-4 px-5 py-5 text-white w-[15vw] h-screen">
                         <li><Link href="/dashboard">Dashboard</Link></li>
                         <li><Link href="/dashboard/apps">Apps</Link></li>
                         <li><Link href="/dashboard/profile">Profile</Link></li>

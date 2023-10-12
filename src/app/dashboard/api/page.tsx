@@ -23,6 +23,8 @@ const Apicall = async () => {
                     <th>Middle Name</th>
                     <th>Last Name</th>
                     <th>Age</th>
+                    <th>Gender</th>
+                    <th>Pic</th>
                 </tr>
            
             {
@@ -34,6 +36,8 @@ const Apicall = async () => {
                         <td>{user.maidenName}</td>
                         <td>{user.lastName}</td>
                         <td>{user.age}</td>
+                        <td>{user.gender}</td>
+                        <td><img className='w-8' src={user.image}></img></td>
                         </tr>
                     
                 ))
