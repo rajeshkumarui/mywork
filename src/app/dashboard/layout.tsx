@@ -25,8 +25,8 @@ const DashboardLayout: React.FC<DashboardLayoutProps> = (props)=>{
                         <li><Link href="/dashboard">Dashboard</Link></li>
                         <li><Link href="/dashboard/apps">Apps</Link></li>
                         <li><Link href="/dashboard/profile">Profile</Link></li>
-                        <li><Link href="/dashboard/api">Api</Link></li>
-
+                        <li><Link href="/dashboard/json-fetch">Json Data</Link></li>
+                        <li><Link href="/dashboard/apollo-client">Apollo Client</Link></li>
                     </ul>
                 </div>
                 <div className="p-5">{props.children}</div>

@@ -5,7 +5,7 @@ async function getUsers() {
     return await query.json();
 }
 
-const Apicall = async () => {
+const Jsonfetch = async () => {
     const pathname = usePathname()
     const userData = await getUsers();
     // if we want some data
@@ -45,4 +45,4 @@ const Apicall = async () => {
         </div>
     )
 }
-export default Apicall;
+export default Jsonfetch;
