@@ -1,6 +1,5 @@
 'use client'
 import { usePathname } from 'next/navigation';
-
 async function getUsers() {
     const query = await fetch('https://dummyjson.com/users');
     return await query.json();
